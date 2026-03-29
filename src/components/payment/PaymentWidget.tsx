@@ -144,7 +144,7 @@ const PaymentWidget = ({ config }: { config?: Partial<PaymentConfig> }) => {
           </div>
 
           {/* Instructions */}
-          <div className="bg-blue-50 dark:bg-blue-950/30 rounded-xl p-4 mb-5 border-l-4 border-blue-400">
+          <div className="bg-muted rounded-xl p-4 mb-5 border-l-4 border-primary/50">
             <h4 className="font-semibold text-sm text-foreground mb-2 flex items-center gap-2">
               <AlertCircle className="w-4 h-4 text-blue-500" />
               পেমেন্ট করার নিয়ম
