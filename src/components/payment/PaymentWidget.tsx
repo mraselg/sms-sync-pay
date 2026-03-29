@@ -146,7 +146,7 @@ const PaymentWidget = ({ config }: { config?: Partial<PaymentConfig> }) => {
           {/* Instructions */}
           <div className="bg-muted rounded-xl p-4 mb-5 border-l-4 border-primary/50">
             <h4 className="font-semibold text-sm text-foreground mb-2 flex items-center gap-2">
-              <AlertCircle className="w-4 h-4 text-blue-500" />
+              <AlertCircle className="w-4 h-4 text-primary" />
               পেমেন্ট করার নিয়ম
             </h4>
             <ol className="list-decimal list-inside text-sm text-muted-foreground space-y-1">
